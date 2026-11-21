@@ -1,0 +1,148 @@
+{
+  "seed": 42,
+  "max_per_class": 500,
+  "excluded_archives": {
+    "b1b3k47_wound_cls.zip": "Excluido tras auditoría forense: contiene copias sintéticas Augmentor (*_original_*) y 512/516 duplicados SHA-256 de uwm_cls_original.zip (mismos pacientes AZH).",
+    "mlaradji_wound_care.zip (google-images-medetec-*)": "Excluido tras inspección visual: contiene imágenes web no clínicas (diagramas anatómicos, infografías de texto y objetos ajenos); se conserva únicamente medetec-dataset/."
+  },
+  "total_scanned": 7869,
+  "corrupt_or_too_small": 0,
+  "azh_same_case_skipped": 1160,
+  "exact_byte_duplicates": 968,
+  "exact_pixel_duplicates": 0,
+  "perceptual_near_duplicates": 39,
+  "flipped_duplicates": 7,
+  "accepted_unique_pool": 5695,
+  "balanced_total": 2192,
+  "split_hash_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "split_group_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "class_split_counts": {
+    "diabetic_foot_ulcer": {
+      "train": 348,
+      "val": 77,
+      "test": 75
+    },
+    "pressure_ulcer": {
+      "train": 216,
+      "val": 46,
+      "test": 46
+    },
+    "venous_ulcer": {
+      "train": 266,
+      "val": 58,
+      "test": 60
+    },
+    "surgical_wound": {
+      "train": 348,
+      "val": 76,
+      "test": 76
+    },
+    "normal_skin": {
+      "train": 350,
+      "val": 75,
+      "test": 75
+    }
+  },
+  "class_source_counts": {
+    "diabetic_foot_ulcer": {
+      "AZH_UWM": 185,
+      "FUSeg_UWM": 233,
+      "Medetec": 82
+    },
+    "pressure_ulcer": {
+      "AZH_UWM": 134,
+      "Medetec": 174
+    },
+    "venous_ulcer": {
+      "AZH_UWM": 250,
+      "Medetec": 134
+    },
+    "surgical_wound": {
+      "AZH_UWM": 164,
+      "Medetec": 64,
+      "SurgWound_OSWUMC": 272
+    },
+    "normal_skin": {
+      "AZH_UWM": 99,
+      "Mendeley_hsj38fwnvr": 401
+    }
+  },
+  "segmentation_pairs_count": 1586,
+  "segmentation_sources": {
+    "FUSeg_UWM": 986,
+    "Mendeley_hsj38fwnvr": 600
+  },
+  "by_archive": {
+    "vincenzopalma_wound_cls.zip": {
+      "scanned": 955,
+      "accepted": 817,
+      "dup_exact": 125,
+      "dup_perceptual": 13,
+      "azh_case_skip": 0
+    },
+    "uwm_loc_Train.zip": {
+      "scanned": 621,
+      "accepted": 0,
+      "dup_exact": 613,
+      "dup_perceptual": 8,
+      "azh_case_skip": 0
+    },
+    "uwm_loc_Test.zip": {
+      "scanned": 209,
+      "accepted": 0,
+      "dup_exact": 205,
+      "dup_perceptual": 4,
+      "azh_case_skip": 0
+    },
+    "uwm_cls_ROI.zip": {
+      "scanned": 638,
+      "accepted": 15,
+      "dup_exact": 0,
+      "dup_perceptual": 1,
+      "azh_case_skip": 622
+    },
+    "uwm_cls_original.zip": {
+      "scanned": 538,
+      "accepted": 0,
+      "dup_exact": 0,
+      "dup_perceptual": 0,
+      "azh_case_skip": 538
+    },
+    "mlaradji_wound_care.zip": {
+      "scanned": 455,
+      "accepted": 454,
+      "dup_exact": 0,
+      "dup_perceptual": 1,
+      "azh_case_skip": 0
+    },
+    "surgwound_oswumc.zip": {
+      "scanned": 686,
+      "accepted": 682,
+      "dup_exact": 0,
+      "dup_perceptual": 4,
+      "azh_case_skip": 0
+    },
+    "uwm_segmentation_repo.zip": {
+      "scanned": 1010,
+      "accepted": 983,
+      "dup_exact": 25,
+      "dup_perceptual": 2,
+      "azh_case_skip": 0
+    },
+    "mendeley_hsj38fwnvr.zip": {
+      "scanned": 2757,
+      "accepted": 2744,
+      "dup_exact": 0,
+      "dup_perceptual": 13,
+      "azh_case_skip": 0
+    }
+  }
+}

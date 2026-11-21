@@ -221,3 +221,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets, raw archives, and model checkpoints (reproducible via scripts/)
+raw_downloads/
+raw_datasets/
+dataset_unified/
+dataset_segmentation/
+*.zip
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
